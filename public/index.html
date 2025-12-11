@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренажер слов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Тренажер слов</h1>
+        
+        <div class="section">
+            <h2>Добавить новое слово</h2>
+            <form id="addForm">
+                <input type="text" id="wordInput" placeholder="Английское слово" required>
+                <input type="text" id="translationInput" placeholder="Перевод" required>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+        
+        <div class="section">
+            <h2>Практика</h2>
+            <button id="randomBtn">Получить случайное слово</button>
+            <div id="randomWord" class="word-card"></div>
+        </div>
+        
+        <div class="section">
+            <h2>Все слова</h2>
+            <div id="wordsList"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
