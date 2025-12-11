@@ -36,7 +36,7 @@ node server.js
 
 ## Скриншоты
 ### 1. Запуск программы
-![запуск программы](screenshots/screen1.png)
+![запуск программы](screen1.png)
 
 ### 2. Главная страница 
 ![главная страница](screenshots/screen2.png)
